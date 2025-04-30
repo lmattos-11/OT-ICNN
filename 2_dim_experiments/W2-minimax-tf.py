@@ -1,8 +1,7 @@
 
 import argparse
 import numpy as np
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 import matplotlib
 matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt

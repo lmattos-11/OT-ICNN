@@ -3,7 +3,8 @@ import argparse
 import numpy as np
 import tensorflow as tf
 import matplotlib
-matplotlib.use("TkAgg")
+import matplotlib
+matplotlib.use("Agg")  # Use non-GUI backend for headless environments
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
 from scipy.linalg import sqrtm
